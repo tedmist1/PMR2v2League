@@ -26,5 +26,5 @@ document.getElementById("generateBtn").addEventListener("click", async () => {
   link.href = URL.createObjectURL(blob);
   link.download = "pm64_2v2_seed_settings.yaml";
   link.click();
-  // alert("Button works!"); // remove this
+  alert("Button works!"); // remove this
 });
