@@ -16,6 +16,7 @@ document.getElementById("generateBtn").addEventListener("click", async () => {
   config.ToyboxOpen        = randomBool();
   config.WhaleOpen         = randomBool();
   config.Ch7BridgeVisible  = randomBool();
+  config.KentCKoopa        = randomBool() ? 0 : 2;
 
   // 4. Convert back to YAML
   const newYaml = jsyaml.dump(config);
